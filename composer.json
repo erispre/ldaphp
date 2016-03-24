@@ -1,0 +1,27 @@
+{
+    "name": "erispre/ldaphp",
+    "description": "Object oriented wrapper for LDAP in PHP",
+    "type": "library",
+    "keywords": ["ldap"],
+    "homepage": "https://www.github.com/erispre/ldaphp",
+    "license": "GPL-3.0+",
+    "authors": [
+	{
+	    "name": "Eric Spreen",
+	    "email": "erispre@gmail.com",
+	    "homepage": "https://www.ericspreen.nl/",
+	    "role": "Developer"
+	}
+    ],
+
+    "require": {
+	"php": ">=5.4",
+	"ext-ldap": "*"
+    },
+
+    "autoload": {
+	"psr-4": {
+	    "Ldaphp\\": "src/"
+	}
+    }
+}
